@@ -230,7 +230,7 @@ void setup()
 
     digitalWrite(PINO_BUZZER, tem_fogo ? HIGH : LOW);
 
-    // Montagem da resposta JSON
+   
     String resposta_json = "{";
     resposta_json += "\"fumaca\":" + String(gas_atual) + ",";
     resposta_json += "\"temperatura\":" + String(temp_atual) + ",";
